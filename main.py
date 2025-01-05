@@ -10,7 +10,7 @@ app = FastAPI(
 )
 
 # Load the trained model
-with open("/Users/furkanozer/ml_pipeline/src/model.pkl", "rb") as f:
+with open("model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # Root endpoint
