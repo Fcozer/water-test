@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 import pickle
 import pandas as pd
-from src.data_model import Water
+from data_model import Water
 
 # Initialize FastAPI app
 app = FastAPI(
